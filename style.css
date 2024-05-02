@@ -1,0 +1,92 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #95170c;
+}
+.wrapper {
+    user-select: none;
+    text-align: center;
+  
+}
+.wrapper{
+  text-justify: inter-word;
+  
+}
+
+.wrapper .time {
+    height: 100px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0,0.09);
+    padding: 0 10px;
+}
+.wrapper .time span {
+    width: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: #333;
+}
+.time span.colon {
+    width: 10px;
+}
+.time span.ms-colon,
+.time span.millisecond {
+    color: #7D2Ae8;
+}
+.wrapper .buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+.buttons button {
+    padding: 6px 16px;
+    outline: none;
+    border: none;
+    margin: 0 5px;
+    color: #7D2Ae8;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px rgba(235, 133, 9, 0.09);
+}
+
+.Stopwatch {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: rgb(255, 243, 243);
+}
+
+.Stopwatch:hover {
+  color: rgb(163, 209, 10);
+}
+
+.buttons :hover {
+  color: rgb(242, 16, 16);
+}
+
+.time span.second {
+    color: rgb(10, 2, 18);
+}
+
+.time span.minute {
+    color: brown;
+}
+
+.time span.hour {
+    color: deeppink;
+}
